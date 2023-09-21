@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #edace6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    position: relative;
+    color: #47fafa;
+    background-color: #dc2464;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+div{
+    position: absolute;
+    margin-top: 100px;
+    color: #dc2464;
+    font-size: 50px;
+}
